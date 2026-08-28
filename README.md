@@ -6,9 +6,20 @@ TypeScript:  igual que JvaScript pero que obliga a definir tipos. Cuando se ejec
 
 # Documentación Proyecto 
 
+## Parte servidor 
+corren toda la lógica del server, funcionan de capa "logica" entre la api y mi app 
+
+- controller
+- service
+- index.ts 
 
 
-/services/ : carpeta con la logica de la conexion con la api 
+## Parte Front
 
-/controller/ : controladores 
+corren toda la parte de "interfaz" de mi aplicación 
+- index.html
+- index.js
+
+
+
 
