@@ -7,6 +7,7 @@ const app = express(); //instancia del servidor creado con express
 const PORT = 3000; //escucha el puerto 3000
 
 app.use(express.json());
+app.use(express.static('public'));
 
 //indica con cual url se hace las peticiones de los chistes 
 app.get('/api/chiste', getJokeHandler);
